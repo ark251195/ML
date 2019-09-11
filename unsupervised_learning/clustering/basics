@@ -2,3 +2,21 @@ Clustering is the process of grouping items which are more similar.
 Generally clustering uses distance as a metric.
 Practically, the real-world data is of very high dimension, so that lower dimensional points become very close to each other
 Thus algorithms which performs well at lower dimensions fails at higher dimensions.
+
+Datapoints are usually sparsely located at high dimensions. It means eventhough they have many dimensions, they are highly
+concentrated at a particular subspace.PCA is helpful to do clustering at this level. But in somecases datapoints are 
+concentrated on the union of many subspaces. There PCA fails. So we need to do subspace clustering.
+
+Subspace: It includes Zero vector. Any two vectors of the subspace multiplied or added among themselves should lie within 
+the same subspace. Finally any vector in the subspace if multiplied by the constant should also lie in the subspace.
+
+Applications of Subspace Clustering:
+  image representation and compression and computer vision problems like motion segmentation, face clustering, image
+segmentation  and video segmentation, hybrid system identification, gene expression analysis, metabolic screening
+of newborns, recommendation systems and web text mining.
+
+Types of Subspace Clustering Methods:
+              Algebraic
+              Iterative
+              Statistical
+              Spectral-cluster based.
