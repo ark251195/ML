@@ -1,0 +1,4 @@
+Clustering is the process of grouping items which are more similar.
+Generally clustering uses distance as a metric.
+Practically, the real-world data is of very high dimension, so that lower dimensional points become very close to each other
+Thus algorithms which performs well at lower dimensions fails at higher dimensions.
