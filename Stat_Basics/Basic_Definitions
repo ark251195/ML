@@ -1,0 +1,12 @@
+Univariate, Bivariate and Multivariate Data:
+  If we are studying only one variable, two variables, more than two variables of every samples in the dataset then accordingly 
+it is known as Univariate, bivariate, multivariate data respectively.
+
+Dependence, Correlation and Causality:
+  We all know about dependent and independent variables. The variables which are depedent upon some other variables are called
+dependent variables and there may exists a linear as well as non linear dependencies. If dependent variables are particulary linearly
+depends (both directly or inversely) on the independent variables then they are correlated. Based on the linear dependency the 
+correlation value may lie between -1 to +1. The independent variables may be the real causing agent for the Dependent variables
+there comes the causality. Even though two variables may be correlated but it is not necessary there exists a causal effect.
+  Now if we know some variables are correlated there exists a greater chance for  causal effect which has many advantages in many fields.
+
