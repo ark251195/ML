@@ -1,0 +1,4 @@
+Lyapunov_Function is a function which has the following conditions/assumptions.
+a)There should be minimum of improvement in K when we are moving from one state to another state of the independent variables.
+b)There is always a max(min) value exists for the function.
+c)at some time F(independent_variables)@t=F(independent_variables)@(t+1) i.e. it attains equilibrium.
