@@ -1,0 +1,4 @@
+Eigen Vector and Eigen Values:
+  Eigen vector is a vector which when multiplied by a Matrix will only have change in magnitude but not in direction.
+  The value by which it changes is called eigen value and the vector is called the eigen vector of that Matrix.
+  Numpy: np.linalg.eig(A)
