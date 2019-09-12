@@ -1,0 +1,15 @@
+Day-by-day the data has been increasing! The number of devices contributing to this information is also increasing and 
+they are with some computational power. Instead of sending all the data to the server and training as a centralized system
+which needs increased bandwidth, Federated Learning is preferred.
+
+Federated learning is the process in which instead of sending the whole data only the updates required by the model will be sent.
+Thus the model is shared and it is updated or learnt at different settings whilst the privacy is also maintained.
+
+Issues:
+  Byzantine Fault
+  Local bias
+  Poisoning attacks!!!
+  
+Byzantine Fault:
+  The system shows different status to the different users. So the whole system cannot come to some proper consensus.
+  
