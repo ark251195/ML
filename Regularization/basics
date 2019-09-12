@@ -1,0 +1,20 @@
+Overfitting causes model to behave well for the training dataset (even test) but gives poor results on validation or new dataset.
+
+
+In order to avoid overfitting, Regularization is preferred.
+
+
+Some methods of Reguralization:
+            Adding weight penalities to the cost function
+            Drop out
+            Early stopping
+            Max norm regularization
+            Data Augmentation methods.
+         
+Adding Weight Penalities to the cost function:
+  L1 or Lasso (Makes some parameters to zero and other non zero parameters wil tend towards zero)
+  L2 or Ridge (All non-zero parameters tends towards zero after regularization.)
+Advantages:    Promising Convexity
+Disadvantages: Bias 
+            
+        
