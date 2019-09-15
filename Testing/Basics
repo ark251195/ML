@@ -1,0 +1,24 @@
+In common, testing a model means evaluating the model on the test data set. If it is not performing better we may tune the 
+hyper-parameters or increase the dataset. But there could be other bugs 
+                        Coincidental Correctness(bugs are present but not detected.Caused by Inf or NAN. Finding them is challenging)
+                        Saturated or untrained neurons that do not contribute to the optimization.
+                        Missing of good regurlarization may results in avoiding overfitting
+
+Issues Preventing Training of DNN:
+      Parameter Related Issues
+      Activation Related Issues
+      Optimization Related Issues.
+      
+Parameter Related Issues:
+  a) Untrained Parameters: Users may fail to connect the layers properly or while creating the graph calls the different layers.
+  Solution: Store the default values of all the layers. Compare after training.
+  b) Poor Weight Initialization: Hidden Neurons of the same layer should not have the same weight which results in same input 
+  and output weights which will not results in poor learning. Weights also should not be very close to zero results in vanishing 
+  gradient and very large results in divergence.
+  Solution: Check the variance of initialization not to be equal to zero! Break the asyemmetry.
+  c)Parameters' divergence issue: Parameters can take the value between -inf to +inf, because of high initial values or learning rate.
+  Biases may also reach some large values because of the inability of the features to explain the differentiability of the classes.
+  May mostly arise in imbalance classes.
+  Solution: Check the 75th percentile of the weights during each iteration and ensure they didn't cross the predefined threshold.
+  d)Parameters' unstable learning:
+  
