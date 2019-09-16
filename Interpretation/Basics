@@ -1,0 +1,15 @@
+Science: Observe nature; explicitly represent the knowledge
+         Requires causal explanation
+Deep Learning: Observe data; implicit representationn of knowledge.
+               Test accuracy improvement. 
+               
+Approach 1:
+    a) Impose the (physically motivated) inductive bias; on the NN. 
+    b) Train them to predict on dynamic physical systems.
+    c) Interpret their results & representation to find out the law underlying the system.
+    
+Inductive Bias:
+      There are two types of Biases. Restrictive bias and inductive bias. Restrictive bias will decide what are the space should not 
+      be included where as inductive bias will decide among the selected what needs to be selected.
+      
+Graph Network's message  <==> Forms of force            Pooling <==> Principle of Superposition
